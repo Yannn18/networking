@@ -6,12 +6,17 @@ Configure a secure DMZ using a Cisco ISR router, applying NAT and ACLs to contro
 2. Implemented Topology
 
 number of networks: 3
+
 Devices used: 7
+
 LAN NETWORK : isolated network from ICMP external network, and can access web server on DMZ area
+
 DMZ area : configure web server, external or internal network can access
+
 EXTERNAL NETWORK / WAN : can acess DMZ web server, but limited from ping internal network, use NAT access the DMZ
 
 3. IP Addressing Plan
+
 |Device	| IP | Mask | Gateway |
 |:---:|:---:|:---:|:---:|
 |PC_Internal | 192.168.1.10 | 255.255.255.0 | 192.168.1.1 |			
@@ -49,13 +54,16 @@ exit
 5. Verifications Performed
 
 ping from PC_Internal to the router: ✅
+
 Web access from PC_External: ✅
+
 Blocking access from DMZ to LAN: ✅
 
 6. Conclusions and Recommendations
 I learned to apply NAT and ACLs in a simulated environment and learning DMZ. I recommend verifying basic connectivity before applying firewall rules, as an IP error can block everything.
 
 7. Evidence Screenshots
+
 ![http ex photo](assets/http_ex.png)
 
 ![ping ex photo](assets/ping_ex.png)
