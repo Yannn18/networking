@@ -1,6 +1,6 @@
 # CLayer 2 Security
 
-![topology]('lab topology.png')
+![topology](lab_topology.png)
 
 ## 1. Lab Objective
 
