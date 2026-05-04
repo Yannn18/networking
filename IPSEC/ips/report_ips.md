@@ -164,3 +164,7 @@ a. Click the **Syslog** server.
 b. Select the **Services** tab.
 
 c. In the left navigation menu, select **SYSLOG** to view the log file.
+
+### Lab Practice Source
+
+[Link](https://itexamanswers.net/5-4-1-2-packet-tracer-configure-ios-intrusion-prevention-system-ips-using-cli-answers.html)
